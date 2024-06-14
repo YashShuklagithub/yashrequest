@@ -182,3 +182,6 @@ logging.getLogger(__name__).addHandler(NullHandler())
 
 # FileModeWarnings go off per the default.
 warnings.simplefilter("default", FileModeWarning, append=True)
+
+def print_yash():
+    print("yash")
